@@ -1,0 +1,24 @@
+{
+  "name": "tfjs-examples-mnist-node",
+  "version": "0.1.1",
+  "description": "",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "private": true,
+  "engines": {
+    "node": ">=8.11.0"
+  },
+  "dependencies": {
+    "seedrandom": "2.4.3",
+    "@tensorflow/tfjs": "3.9.0",
+    "@tensorflow/tfjs-core": "3.9.0",
+    "@tensorflow/tfjs-backend-wasm": "3.9.0",
+    "argparse": "^2.0.1"
+  },
+  "scripts": {
+    "train": "node main.js"
+  },
+  "devDependencies": {
+    "clang-format": "~1.2.2"
+  }
+}
